@@ -7,8 +7,7 @@ rock=0
 paper=1
 scissor=2
 tie=0
-while [ $tie -eq 0 ]
-do
+while [ $tie -eq 0 ]; do
 	computer_move=$((RANDOM % 3))
 	echo -n "Please enter your move:"
 	read move
